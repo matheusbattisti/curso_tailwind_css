@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interatividade</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="m-4">
+    <select class="appearance-none">
+      <option value="">Teste</option>
+    </select>
+    <select>
+      <option value="">Teste</option>
+    </select>
+  </div>
+  <!-- Cursor -->
+  <div class="h-20 bg-pink-400 cursor-pointer"></div>
+  <div class="h-20 bg-pink-600 cursor-wait"></div>
+  <div class="h-20 bg-pink-900 cursor-not-allowed"></div>
+  <div class="h-20 bg-pink-200 cursor-text"></div>
+  <p>Teste</p>
+  <!-- Outline -->
+  <div class="p-6 bg-red-300">
+    <input type="text" placeholder="Clica em mim" class="outline-none">
+    <input type="text" placeholder="Clica em mim 2">
+  </div>
+  <!-- POINTER EVENTS -->
+  <div class="m-4 bg-gray-300 p-4">
+    <select class="pointer-events-none">
+      <option value="">Teste Pointers</option>
+    </select>
+    <select>
+      <option value="">Teste Pointers</option>
+    </select>
+    <div class="m-4">
+      <textarea name="" id="" cols="30" rows="10" class="pointer-events-none"></textarea>
+      <textarea name="" id="" cols="30" rows="10"></textarea>
+    </div>
+  </div>
+  <!-- Resize -->
+  <div class="m-4 bg-blue-300 p-4">
+    <textarea name="" id="" cols="30" rows="10" class="resize-none"></textarea>
+    <textarea name="" id="" cols="30" rows="10" class="resize-x"></textarea>
+    <textarea name="" id="" cols="30" rows="10" class="resize-y"></textarea>
+    <textarea name="" id="" cols="30" rows="10" class="resize"></textarea>
+  </div>
+  <!-- Select -->
+  <div class="m-4 bg-blue-300 p-4">
+    <p class="select-none">Este parágrafo não pode ser selecionado</p>
+    <p class="select-auto">Este parágrafo pode ser selecionado</p>
+  </div>
+  <p class="p-10">Espaçamento</p>
+  <p class="p-10">Espaçamento</p>
+  <p class="p-10">Espaçamento</p>
+  <p class="p-10">Espaçamento</p>
+  <p class="p-10">Espaçamento</p>
+  <p class="p-10">Espaçamento</p>
+  <p class="p-10">Espaçamento</p>
+</body>
+</html>
