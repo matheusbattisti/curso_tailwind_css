@@ -1,0 +1,52 @@
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
+
+.address-container {
+  @apply flex items-center border border-transparent rounded-sm px-2 py-2;
+}
+
+.address-container:hover {
+  @apply border-white;
+}
+
+.item-nav-mid {
+  @apply mr-4 border border-transparent rounded-sm px-2 py-1;
+}
+
+.item-nav-mid:hover {
+  @apply border-white;
+}
+
+.item-nav-inf {
+  @apply border-b-2 border-transparent  py-1 px-3;
+}
+
+.item-nav-inf:hover {
+  @apply border-orange-650 text-orange-650;
+}
+
+.btn-amazon-prime {
+  @apply text-sm bg-yellow-350 border border-yellow-700 rounded px-3 py-3 h-12 block items-center w-full text-center;
+}
+
+.item-footer-inf {
+  @apply hidden text-gray-600 mb-10;
+}
+
+/* MEDIA QUERY */
+@screen md {
+  .address-container {
+    @apply py-0;
+  }
+
+  .btn-amazon-prime {
+    @apply text-xs py-0 ml-10 h-8 flex w-auto ;
+  }
+
+  .item-footer-inf {
+    @apply block;
+  }
+}
