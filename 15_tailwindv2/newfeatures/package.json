@@ -1,0 +1,19 @@
+{
+  "name": "newfeatures",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tailwindcss-cli@latest build ./css/styles.css -o ./css/dist.css"
+  },
+  "keywords": [],
+  "author": "Matheus <matheus@horadecodar.com.br> (http://www.horadecodar.com.br/)",
+  "license": "MIT",
+  "dependencies": {
+    "@tailwindcss/forms": "^0.2.1",
+    "autoprefixer": "^10.2.1",
+    "postcss": "^8.2.4",
+    "tailwindcss": "^2.0.2"
+  }
+}
